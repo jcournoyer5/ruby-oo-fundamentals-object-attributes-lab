@@ -16,7 +16,7 @@ def initialize(name, job)
  
   end
 
-  def name
+  def person_name
     @name
   end
 
