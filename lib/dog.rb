@@ -10,13 +10,16 @@ class Dog
   end
   
   def breed
-   puts @breed
+    @breed
   end
 
 fido = Dog.new
 fido.name = "Fido"
 
 puts fido.name
-end
 
-  
+
+beagle = Breed.new
+snoopy.breed = "Beagle"
+puts snoopy.breed
+end
