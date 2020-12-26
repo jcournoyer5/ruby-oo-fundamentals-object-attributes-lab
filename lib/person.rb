@@ -20,7 +20,7 @@ def initialize(name, job)
     @name
   end
 
-beyonce = Person.new
+beyonce = Person.new("Beyonce")
 beyonce.name = "Beyonce"
 
 puts beyonce.name
