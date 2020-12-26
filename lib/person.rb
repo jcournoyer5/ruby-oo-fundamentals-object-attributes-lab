@@ -20,6 +20,10 @@ class Person
   def person_name
     @name
   end
+  
+  def job=(person_job)
+      @job = person_job
+  end
 
 #beyonce = Person.new("Beyonce")
 #beyonce.name = "Beyonce"
