@@ -6,11 +6,11 @@ class Person
     attr_writer :name
     attr_reader :name
 
-def initialize(name, job)
+#def initialize(name, job)
     
-    @name = name
-    @job = job
-end    
+   # @name = name
+  #  @job = job
+#end    
 
   def name=(person_name)
     @name = person_name
