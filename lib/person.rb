@@ -10,6 +10,7 @@ def initialize(name, job)
     
     @name = name
     @job = job
+end    
 
   def name=(person_name)
     @name = person_name
@@ -20,10 +21,12 @@ def initialize(name, job)
     @name
   end
 
-beyonce = Person.new("Beyonce")
-beyonce.name = "Beyonce"
+#beyonce = Person.new("Beyonce")
+#beyonce.name = "Beyonce"
 
-puts beyonce.name
+#puts beyonce.name
+
+end
      
     # NoMethodError:
      #  undefined method `name=' for #<Person:0x0000000003011078>
@@ -55,5 +58,3 @@ puts beyonce.name
      
     # NoMethodError:
      #  undefined method `job' for #<Person:0x0000000003022558 @job="Singer">
-end
-end
