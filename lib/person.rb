@@ -3,6 +3,8 @@
    #  Failure/Error: beyonce.name = "Beyonce"
    
 class Person
+    attr_writer :name
+    attr_reader :name
 
 def initialize(name, job)
     
